@@ -46,12 +46,12 @@
 
         MS_BTN1_ {
             bindings = <&mkp MB1>;
-            key-positions = <38 39>;
+            key-positions = <18 19>;
         };
 
         MS_BTN2_ {
             bindings = <&mkp MB2>;
-            key-positions = <38 37>;
+            key-positions = <19 20>;
         };
     };
 
