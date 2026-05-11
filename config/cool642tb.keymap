@@ -27,11 +27,6 @@
             key-positions = <0 1>;
         };
 
-        comb3 {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <22 23>;
-        };
-
         comb4 {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 8>;
