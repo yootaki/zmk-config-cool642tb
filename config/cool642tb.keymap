@@ -71,6 +71,48 @@
 
             label = "HENKAN";
         };
+
+        mission_controll_up: mission_controll {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MISSION_CONTROLL";
+        };
+
+        mission_controll_left: mission_controll_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp LEFT_ARROW>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MISSION_CONTROLL_LEFT";
+        };
+
+        mission_controll_right: mission_controll_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp RIGHT_ARROW>,
+                <&macro_release>,
+                <&kp LCTRL>;
+
+            label = "MISSION_CONTROLL_RIGHT";
+        };
     };
 
     behaviors {
