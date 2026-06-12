@@ -27,18 +27,6 @@
             key-positions = <0 1>;
         };
 
-        comb4 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
-        };
-
-        comb5 {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <9 8>;
-            timeout-ms = <0>;
-            layers = <2>;
-        };
-
         MS_BTN1_ {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
