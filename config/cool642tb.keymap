@@ -253,7 +253,7 @@
 &kp LEFT_SHIFT   &none        &none     &screen_shot  &screen_shot_clip_board  &none             &kp ESC            &kp ENTER                                                               &kp PIPE
             >;
 
-            sensor-bindings = <&scroll_move_x>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         NUM {
